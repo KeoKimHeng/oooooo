@@ -46,8 +46,9 @@ function progressInterva(){
             button.style.height = "40px";
         },2000)
         setTimeout(()=>{
-            textBtn.textContent = "Click me!"
+            textBtn.textContent = "ចុច!!!!"
             textBtn.style.color = "#fff"
+            textBtn.style.fontFamily = "Noto Sans Khmer";       
         },2500)
         setTimeout(()=>{
             cursor.style.opacity = "1";
